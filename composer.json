@@ -1,14 +1,14 @@
 {
-	"name" : "greenlion/php-sql-parser",
+	"name" : "rob-lester-jr04/php-sql-parser",
 	"type" : "library",
-	"description" : "A pure PHP SQL (non validating) parser w/ focus on MySQL dialect of SQL",
+	"description" : "A pure PHP SQL (non validating) parser w/ focus on MySQL dialect of SQL - Modernized for use with composer practices and Laravel 5+",
 	"keywords" : [
 		"sql",
 		"parser",
 		"creator",
 		"MySQL"
 	],
-	"homepage" : "https://github.com/greenlion/PHP-SQL-Parser",
+	"homepage" : "https://github.com/rob-lester-jr04/PHP-SQL-Parser",
 	"license" : "BSD-3-Clause",
 	"authors" : [{
 			"name" : "Justin Swanhart",
@@ -23,12 +23,12 @@
 		}
 	],
 	"support" : {
-		"issues" : "https://github.com/greenlion/PHP-SQL-Parser/issues",
-		"source" : "https://github.com/greenlion/PHP-SQL-Parser"
+		"issues" : "https://github.com/rob-lester-jr04/PHP-SQL-Parser/issues",
+		"source" : "https://github.com/rob-lester-jr04/PHP-SQL-Parser"
 	},
 	"autoload" : {
-		"psr-0" : {
-			"PHPSQLParser\\" : "src/"
+		"psr-4" : {
+			"Lester\\PHPSQLParser\\" : "src/"
 		}
 	},
 	"autoload-dev" : {
