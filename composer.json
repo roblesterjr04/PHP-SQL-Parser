@@ -28,12 +28,12 @@
 	},
 	"autoload" : {
 		"psr-4" : {
-			"Lester\\SQLParser\\" : "src/"
+			"Lester\\SQLParser\\" : "src"
 		}
 	},
 	"autoload-dev" : {
 		"psr-4" : {
-			"PHPSQLParser\\Test\\" : "tests/cases/"
+			"SQLParser\\Test\\" : "tests/cases/"
 		}
 	},
 	"require" : {
